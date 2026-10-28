@@ -1,0 +1,252 @@
+{
+ "fileType": "Plan",
+ "version": 1,
+ "groundStation": "QGroundControl",
+ "geoFence": {
+  "circles": [],
+  "polygons": [],
+  "version": 2
+ },
+ "rallyPoints": {
+  "points": [],
+  "version": 2
+ },
+ "mission": {
+  "version": 2,
+  "firmwareType": 12,
+  "vehicleType": 2,
+  "cruiseSpeed": 12,
+  "hoverSpeed": 5,
+  "plannedHomePosition": [
+   -6.1754,
+   106.8272,
+   8
+  ],
+  "items": [
+   {
+    "type": "SimpleItem",
+    "command": 22,
+    "frame": 3,
+    "doJumpId": 1,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.1754,
+     106.8272,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 2,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.1781131151988715,
+     106.82448933715443,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 3,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.1781131151988715,
+     106.82991066284558,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 4,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.177027869119323,
+     106.82991066284558,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 5,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.177027869119323,
+     106.82448933715443,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 6,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.1759426230397745,
+     106.82448933715443,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 7,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.1759426230397745,
+     106.82991066284558,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 8,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.174857376960225,
+     106.82991066284558,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 9,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.174857376960225,
+     106.82448933715443,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 10,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.173772130880677,
+     106.82448933715443,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 11,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.173772130880677,
+     106.82991066284558,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 12,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.172686884801128,
+     106.82991066284558,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 16,
+    "frame": 3,
+    "doJumpId": 13,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     null,
+     -6.172686884801128,
+     106.82448933715443,
+     120
+    ]
+   },
+   {
+    "type": "SimpleItem",
+    "command": 20,
+    "frame": 2,
+    "doJumpId": 14,
+    "autoContinue": true,
+    "params": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  ]
+ }
+}

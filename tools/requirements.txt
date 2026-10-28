@@ -1,0 +1,5 @@
+# Alat bantu pengembang (opsional): generator data demo, definisi MAVLink, PDF panduan, ekstrak POI Overture
+pymavlink>=2.4.40,<3
+reportlab>=4.2,<6
+pillow>=10,<12
+overturemaps>=0.10 ; python_version >= "3.10"

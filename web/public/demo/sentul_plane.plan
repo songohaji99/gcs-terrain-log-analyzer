@@ -1,0 +1,237 @@
+{
+  "fileType": "Plan",
+  "version": 1,
+  "groundStation": "QGroundControl",
+  "geoFence": {
+    "circles": [],
+    "polygons": [],
+    "version": 2
+  },
+  "rallyPoints": {
+    "points": [],
+    "version": 2
+  },
+  "mission": {
+    "version": 2,
+    "firmwareType": 3,
+    "vehicleType": 1,
+    "cruiseSpeed": 18,
+    "hoverSpeed": 5,
+    "plannedHomePosition": [
+      -6.565,
+      106.87,
+      201.0
+    ],
+    "items": [
+      {
+        "type": "SimpleItem",
+        "command": 22,
+        "frame": 3,
+        "params": [
+          12,
+          0,
+          0,
+          0,
+          0.0,
+          0.0,
+          60
+        ],
+        "autoContinue": true,
+        "doJumpId": 1,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 60,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 178,
+        "frame": 2,
+        "params": [
+          0,
+          20,
+          -1,
+          0,
+          0.0,
+          0.0,
+          0
+        ],
+        "autoContinue": true,
+        "doJumpId": 2,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 0,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          -6.575,
+          106.885,
+          150
+        ],
+        "autoContinue": true,
+        "doJumpId": 3,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 150,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          -6.585,
+          106.905,
+          260
+        ],
+        "autoContinue": true,
+        "doJumpId": 4,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 260,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 183,
+        "frame": 2,
+        "params": [
+          9,
+          1900,
+          0,
+          0,
+          0.0,
+          0.0,
+          0
+        ],
+        "autoContinue": true,
+        "doJumpId": 5,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 0,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 10,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          -6.576,
+          106.928,
+          120
+        ],
+        "autoContinue": true,
+        "doJumpId": 6,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 120,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 0,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          -6.56,
+          106.93,
+          520
+        ],
+        "autoContinue": true,
+        "doJumpId": 7,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 520,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 223,
+        "frame": 2,
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          0.0,
+          0.0,
+          0
+        ],
+        "autoContinue": true,
+        "doJumpId": 8,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 0,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          -6.556,
+          106.905,
+          300
+        ],
+        "autoContinue": true,
+        "doJumpId": 9,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 300,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 18,
+        "frame": 3,
+        "params": [
+          1,
+          0,
+          100,
+          0,
+          -6.556,
+          106.88,
+          220
+        ],
+        "autoContinue": true,
+        "doJumpId": 10,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 220,
+        "AltitudeMode": 1
+      },
+      {
+        "type": "SimpleItem",
+        "command": 21,
+        "frame": 3,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          -6.564,
+          106.868,
+          0
+        ],
+        "autoContinue": true,
+        "doJumpId": 11,
+        "AMSLAltAboveTerrain": null,
+        "Altitude": 0,
+        "AltitudeMode": 1
+      }
+    ]
+  }
+}
