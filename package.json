@@ -1,0 +1,25 @@
+{
+  "name": "chakrawala-workspace",
+  "private": true,
+  "description": "Chakrawala — WebGIS terpadu, analisis misi & flight log drone (Development by Cakrayuda)",
+  "author": "Cakrayuda",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "npm --prefix web ci",
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "preview": "npm --prefix web run preview",
+    "test": "npm --prefix web test",
+    "lint": "npm --prefix web run lint",
+    "check": "npm run lint && npm test && npm run build",
+    "bridge:install": "node scripts/py.mjs -m pip install -r bridge/requirements.txt",
+    "bridge:sim": "node scripts/py.mjs bridge/mav_bridge.py --sim",
+    "bridge:live": "node scripts/py.mjs bridge/mav_bridge.py",
+    "tools:install": "node scripts/py.mjs -m pip install -r tools/requirements.txt",
+    "demo:generate": "node scripts/py.mjs tools/gen_samples.py",
+    "docs:pdf": "node scripts/py.mjs tools/build_guidebook.py"
+  }
+}

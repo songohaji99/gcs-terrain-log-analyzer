@@ -1,0 +1,86 @@
+# =============================================================================
+# Chakrawala — .gitignore
+# Prinsip: data penerbangan & misi NYATA tidak pernah masuk repo. Satu-satunya
+# pengecualian adalah web/public/demo/ (data SINTETIS hasil tools/gen_samples.py).
+# =============================================================================
+
+# --- Data misi & flight log (nyata) -----------------------------------------
+*.bin
+*.log
+*.tlog
+*.ulg
+*.plan
+*.waypoints
+*.BIN
+*.LOG
+*.TLOG
+*.ULG
+samples/
+data/
+bridge/logs/
+docs/demo-data/
+docs/guidebook/
+analisis/
+private/
+
+# Pengecualian: data demo sintetis yang aman dipublikasikan
+!web/public/demo/
+!web/public/demo/*.bin
+!web/public/demo/*.log
+!web/public/demo/*.tlog
+!web/public/demo/*.plan
+!web/public/demo/*.waypoints
+!web/public/demo/*.csv
+
+# --- Rahasia & konfigurasi lokal --------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets*.json
+
+# --- Cache DEM / tile / ekstrak besar ----------------------------------------
+*.mbtiles
+*.pmtiles
+*.tif
+*.tiff
+*.gtx
+tile-cache/
+dem-cache/
+tools/.overture/
+*.geojson
+
+# --- Dependency & hasil build -------------------------------------------------
+node_modules/
+web/public/cesium/
+dist/
+build/
+coverage/
+.vite/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- File sementara -----------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+npm-debug.log*
+yarn-error.log*
+
+# --- OS & IDE -----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.code-workspace
+.claude/
