@@ -138,18 +138,18 @@ npm run preview
 
 ### Bridge drone (opsional, Python)
 
-Disarankan memakai virtual environment.
+Disarankan memakai virtual environment di folder proyek (`.venv`). Skrip npm otomatis memakai `.venv` bila ada, jadi **tidak perlu diaktifkan**.
 
 macOS / Linux:
 
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv
 ```
 
-Windows (PowerShell):
+Windows:
 
 ```powershell
-python -m venv .venv; .venv\Scripts\Activate.ps1
+python -m venv .venv
 ```
 
 Lalu, dari folder proyek:
@@ -279,6 +279,7 @@ npm run check
 | Port 5173 sudah dipakai | Hentikan proses lain atau jalankan `npm --prefix web run dev -- --port 5174`. |
 | "Data live 0/3" | Koneksi internet/proxy diblokir. Di server produksi, sediakan rute `/api/pb`, `/api/bmkg`, `/api/gempa` (lihat `web/vite.config.js`). |
 | "Drone bridge" merah | Bridge belum berjalan: `npm run bridge:sim`. Aplikasi menyambung ulang tiap 3 detik. |
+| Windows: `pip` gagal dengan `OSError ... Long Path` saat `bridge:install` | Clone ke folder yang lebih pendek (mis. `C:\src\`) atau aktifkan *Windows Long Path support* (lihat pesan pip). |
 | `Python 3.10+ tidak ditemukan` | Pasang Python dan pastikan `python3` (macOS/Linux) atau `python`/`py` (Windows) ada di PATH. |
 | Log ditolak: "tidak ada data GPS dengan fix 3D" | Log direkam tanpa fix GPS. Gunakan log dengan penerbangan bergerak. |
 | `.ulg` ditolak | PX4 ULog belum didukung; gunakan log ArduPilot atau `.tlog`. |
